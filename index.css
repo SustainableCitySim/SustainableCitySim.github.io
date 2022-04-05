@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+:root{
+    --deepCove: #130f40;
+    
+}
+
+
+body {
+    background-color: white;
+    font-family: "Comfortaa", cursive;
+
+}
+
+.centered {
+    display: block;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.main {
+    width: 75%;
+    background-color: var(--deepCove);
+    min-height: 1080px;
+
+}
+
+#sep1 {
+    height: 40px;
+}
+
+#Title {
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 128px;
+    background-color: darkslateblue;
+}
+
+.description {
+    text-align: center;
+    text-align: center;
+    color: aliceblue;
+    padding: 40px 0px;
+}
+
+a:link{
+    color: aliceblue;
+}
+
+a:visited{
+    color: whitesmoke;
+}
+
+a:hover{
+    text-decoration: underline cornflowerblue;
+}
